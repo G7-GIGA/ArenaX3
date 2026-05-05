@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:background="@android:color/black"
+     android:padding="16dp"
+     android:orientation="vertical">
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:layout_marginBottom="24dp"
+         android:gravity="center_vertical"
+         android:orientation="horizontal">
+
+        <ImageView
+             android:layout_height="32dp"
+             android:layout_width="32dp"
+             android:src="@drawable/ic_games"
+             android:tint="@color/icon_tint" />
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:textSize="22sp"
+             android:textColor="@android:color/white"
+             android:layout_marginStart="12dp"
+             android:layout_weight="1"
+             android:text="Games Library"
+             android:textStyle="bold" />
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:textSize="14sp"
+             android:textColor="@android:color/darker_gray"
+             android:text="ArenaX3" />
+
+    </LinearLayout>
+
+    <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:layout_marginBottom="16dp"
+         android:gravity="center"
+         android:background="@drawable/border_background"
+         android:padding="8dp"
+         android:textSize="12sp"
+         android:textColor="@android:color/darker_gray"
+         android:text="Place game files in: /storage/emulated/0/ArenaX3/Games/" />
+
+    <com.google.android.material.button.MaterialButton
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:layout_marginBottom="16dp"
+         app:icon="@drawable/ic_recent"
+         app:cornerRadius="8dp"
+         android:backgroundTint="#FF5722"
+         app:iconTint="@android:color/white"
+         android:textColor="@android:color/white"
+         android:id="@+id/button_load_recent"
+         android:text="Load Recent Game" />
+
+    <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:layout_marginBottom="8dp"
+         android:textSize="16sp"
+         android:textColor="@android:color/white"
+         android:text="Available Games"
+         android:textStyle="bold" />
+
+    <ListView
+         android:layout_height="0dp"
+         android:layout_width="match_parent"
+         android:visibility="visible"
+         android:divider="#333333"
+         android:background="#1E1E1E"
+         android:padding="4dp"
+         android:layout_weight="1"
+         android:id="@+id/list_view_games"
+         android:dividerHeight="1dp">
+
+    </ListView>
+
+    <TextView
+         android:layout_height="0dp"
+         android:layout_width="match_parent"
+         android:visibility="gone"
+         android:gravity="center"
+         android:textSize="14sp"
+         android:textColor="@android:color/darker_gray"
+         android:layout_weight="1"
+         android:id="@+id/text_view_no_games"
+         android:text="No games found.\n\nPlace ROM files in:\n/storage/emulated/0/ArenaX3/Games/\n\nSupported formats:\n.bin, .cue, .iso, .img, .chd, .zip" />
+
+    <com.google.android.material.button.MaterialButton
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         app:icon="@drawable/ic_folder"
+         app:cornerRadius="8dp"
+         android:backgroundTint="#2196F3"
+         app:iconTint="@android:color/white"
+         android:textColor="@android:color/white"
+         android:layout_marginTop="16dp"
+         android:id="@+id/button_browse_games"
+         android:text="Browse External Storage" />
+
+</LinearLayout>
