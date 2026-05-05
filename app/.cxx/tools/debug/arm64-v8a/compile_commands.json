@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/storage/emulated/0/AndroidIDEProjects/ArenaX3/app/.cxx/Debug/612l4r1g/arm64-v8a",
+  "command": "/data/user/0/com.tom.rv2ide/files/home/android-sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/linux-x86/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/data/user/0/com.tom.rv2ide/files/home/android-sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Darenax3_EXPORTS -O2 -frtti -fexceptions -g  -fno-limit-debug-info -std=gnu++17 -fPIC -o CMakeFiles/arenax3.dir/native-lib.cpp.o -c /storage/emulated/0/AndroidIDEProjects/ArenaX3/app/src/main/cpp/native-lib.cpp",
+  "file": "/storage/emulated/0/AndroidIDEProjects/ArenaX3/app/src/main/cpp/native-lib.cpp",
+  "output": "CMakeFiles/arenax3.dir/native-lib.cpp.o"
+}
+]

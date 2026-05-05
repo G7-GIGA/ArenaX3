@@ -1,0 +1,63 @@
+CMake Deprecation Warning at /data/user/0/com.tom.rv2ide/files/home/android-sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:34 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/3.31.6/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:146 (include)
+  CMakeLists.txt:2 (project)
+
+
+CMake Deprecation Warning at /data/user/0/com.tom.rv2ide/files/home/android-sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:34 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /storage/emulated/0/AndroidIDEProjects/ArenaX3/app/.cxx/Debug/612l4r1g/arm64-v8a/CMakeFiles/3.31.6-dirty/CMakeSystem.cmake:6 (include)
+  CMakeLists.txt:2 (project)
+
+
+CMake Deprecation Warning at /data/user/0/com.tom.rv2ide/files/home/android-sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:34 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /storage/emulated/0/AndroidIDEProjects/ArenaX3/app/.cxx/Debug/612l4r1g/arm64-v8a/CMakeFiles/3.31.6-dirty/CMakeSystem.cmake:6 (include)
+  /storage/emulated/0/AndroidIDEProjects/ArenaX3/app/.cxx/Debug/612l4r1g/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-fDKJLK/CMakeLists.txt:4 (project)
+
+
+CMake Deprecation Warning at /data/user/0/com.tom.rv2ide/files/home/android-sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:34 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /storage/emulated/0/AndroidIDEProjects/ArenaX3/app/.cxx/Debug/612l4r1g/arm64-v8a/CMakeFiles/3.31.6-dirty/CMakeSystem.cmake:6 (include)
+  /storage/emulated/0/AndroidIDEProjects/ArenaX3/app/.cxx/Debug/612l4r1g/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-DmnLDE/CMakeLists.txt:4 (project)
+
+
+CMake Error at CMakeLists.txt:7 (add_library):
+  Cannot find source file:
+
+    Platform_Utils/Logger.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+  .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+  .f95 .f03 .hip .ispc
+
+
+CMake Error at CMakeLists.txt:7 (add_library):
+  No SOURCES given to target: arenax3
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

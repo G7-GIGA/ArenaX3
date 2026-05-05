@@ -1,0 +1,4 @@
+/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/3.31.6/bin/ninja \
+  -C \
+  /storage/emulated/0/AndroidIDEProjects/ArenaX3/app/.cxx/Debug/612l4r1g/arm64-v8a \
+  arenax3

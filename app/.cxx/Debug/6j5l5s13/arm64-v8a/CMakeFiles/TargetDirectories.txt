@@ -1,0 +1,3 @@
+/storage/emulated/0/AndroidIDEProjects/ArenaX3/app/.cxx/Debug/6j5l5s13/arm64-v8a/CMakeFiles/arenax.dir
+/storage/emulated/0/AndroidIDEProjects/ArenaX3/app/.cxx/Debug/6j5l5s13/arm64-v8a/CMakeFiles/edit_cache.dir
+/storage/emulated/0/AndroidIDEProjects/ArenaX3/app/.cxx/Debug/6j5l5s13/arm64-v8a/CMakeFiles/rebuild_cache.dir
